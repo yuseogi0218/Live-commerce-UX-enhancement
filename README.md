@@ -11,27 +11,27 @@
 
 ![architecture](image/architecture-0.png)
 
-### 라이브 커머스 관리자 보드 (Javascript-React)
+### 라이브 커머스 관리자 보드 (Javascript-React) - [SourceCode](https://github.com/yuseogi0218/Live-commerce-UX-enhancement/tree/main/Live-Shopping-Seller-Board-main/client)
 - 라이브 커머스 관리자가 사용하게 될 웹 Front-End 서비스 입니다.
 - Javascript-React 를 사용하여 구축하였습니다.
 - UI를 재사용 가능한 컴포넌트 기반 구조와 다양한 라이브러리 및 Back-End 와의 통신 방법을 제공하기 때문입니다.
 
-### Node JS 웹 서버
+### Node JS 웹 서버 - [SourceCode](https://github.com/yuseogi0218/Live-commerce-UX-enhancement/tree/main/Live-Shopping-Seller-Board-main/server)
 - Naver Live 쇼핑 서비스, 라이브 커머스 관리자 보드 및 의도 분류 모델 API와 통신을 수행하는 Back-End 서비스 입니다.
 - Javascript-NodeJS 를 사용하여 구축하였습니다.
 - 핵심 역할인 Naver Live 쇼핑의 실시간 채팅 수신을 위해 웹 소켓 기능을 지원하는 Puppeteer 라이브러리를 제공하기 때문입니다.
 
-### AWS 의도 분류 모델 API
+### AWS 의도 분류 모델 API - [SourceCode](https://github.com/yuseogi0218/Live-commerce-UX-enhancement/tree/main/Chat-Intent-Classification-main)
 - 실시간 채팅에 대하여 의도(일반, 질문, 요청) 분류를 수행하는 API 서비스 입니다.
 - AWS의 AWS API Gateway, Lambda, SageMaker 를 사용하여 구축하였습니다.
 - AI Model 의 배포(end-point) 기능을 제공하는 SageMaker 를 사용하여 쉽게 API 서비스를 구축할 수 있기 때문입니다.
 
-### Fast API 웹 서버
+### Fast API 웹 서버 - [SourceCode](https://github.com/yuseogi0218/Live-commerce-UX-enhancement/tree/main/Auto-Answer-Generation-main)
 - 질문 채팅에 대해서 답변 생성 역할을 수행하는 Back-End 서비스 입니다. 추가로, 관리자가 전송한 (질문, 답변) 쌍을 라이브 커머스 시청자(Chrome Extension)에 전달하는 역할도 수행합니다.
 - Python 의 웹 서버 프레임워크인 Fast API 를 사용하여 구축하였습니다.
 - LLM Application 인 LangChain 을 Python 언어가 지원하기 때문입니다.
 
-### 라이브 커머스 시청자 화면 With Chrome Extension
+### 라이브 커머스 시청자 화면 With Chrome Extension - [SourceCode](https://github.com/yuseogi0218/Live-commerce-UX-enhancement/tree/main/Chrome-Extension-main)
 - 실제 Naver Live 쇼핑의 시청자 채팅 화면에 관리자가 전송한 (질문, 답변)쌍을 보여주기 위한 크롬 확장 프로그램 입니다.
 - Chrome Extension 을 사용하여 구축하였습니다.
 - Chrome UI를 개발자가 수정할 수 있으며, Background 에서 Web Socket 기능을 지원하기 때문입니다.
