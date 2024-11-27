@@ -1,0 +1,93 @@
+.info-outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #1a1a1d;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #1a1a1d;
+  border-radius: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.containerBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.broadcastInfoButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979FF;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  border-radius: 5%;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.infoContainer{
+  display: flex;
+  padding: 2% 5%;
+  margin-bottom: 10px;
+}
+
+.infoBox{
+  background: #1a1a1d;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: white;
+  width: 100%;
+}
+
+.backgroundLight{
+  background: #1a1a1d;
+}
+
+.infoName{
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  border-bottom:2px solid white;
+  word-wrap: break-word;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: xx-large;
+}
+
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}

@@ -1,0 +1,66 @@
+.productBox {
+  background: #F3F3F3;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: white;
+  width: 100%;
+}
+
+.productName {
+  width: 100%;
+  letter-spacing: 0;
+  border-bottom:2px solid white;
+  font-weight: bold;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  font-size: xx-large;
+}
+
+.productContainer {
+  display: flex;
+  padding: 0 5%;
+  margin-bottom: 10px;
+}
+
+.sentText {
+  display: flex;
+  align-items: center;
+  font-family: Helvetica;
+  color: #828282;
+  letter-spacing: 0.3px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979FF;
+}
+
+.backgroundLight {
+  background: #1a1a1d;
+}

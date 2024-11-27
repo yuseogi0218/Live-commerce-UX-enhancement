@@ -1,0 +1,12 @@
+
+  
+.input {
+    padding: 3%;
+    width: 100%;
+    font-size: 1.2em;
+    resize: none;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
