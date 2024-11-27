@@ -42,7 +42,7 @@
 ### 관리자 보드에 접속하여, Naver Live 쇼핑 방송 URL 을 입력합니다.
 ![screen](image/screen-1.png)
 ![architecture](image/architecture-1.png)
-### Puppeteer 의 COP Session 기능을 이용하여 방송에서 진행할 상품 목록 정보를 수신합니다. 
+### Puppeteer 의 CDP Session 기능을 이용하여 방송에서 진행할 상품 목록 정보를 수신합니다. 
 ![architecture](image/architecture-2.png)
 ![architecture](image/architecture-3.png)
 ### 방송 및 상품에 대한 정보를 입력 및 상품에 대한 상세 정보 페이지로부터 Q&A 정보를 크롤링 합니다.
@@ -54,7 +54,7 @@
 
 ## 2. 라이브 커머스 방송 진행 (채팅 의도 분류)
 - 라이브 커머스 방송이 시작되며, 시청자의 채팅에 대한 의도 분류가 진행됩니다.
-### Puppeteer 의 COP Session 기능을 이용하여 방송의 실시간 채팅을 스트리밍합니다.
+### Puppeteer 의 CDP Session 기능을 이용하여 방송의 실시간 채팅을 스트리밍합니다.
 ![architecture](image/architecture-5.png)
 ### 실시간 채팅에 대해서 AWS 의도 분류 모델 API 를 통해 의도 분류를 수행합니다.
 ![architecture](image/architecture-6.png)
