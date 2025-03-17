@@ -56,7 +56,7 @@
 - 이유 3 : 각 모델의 추론 시간이 1초 이내이다.
     - 이진 분류 모델을 채팅 데이터에 대해서 실행시켜보았을 때, 추론 시간이 매우 짧으므로, 추론 시간 증가에 대한 단점은 해결된다.
 
-![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/37657690-f639-4d35-b97e-1c6618811c26/image.png?table=block&id=1495a0fb-7695-80e4-9bcc-e3a8e39994a6&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=9mBP51lgbsiKcWXbGLL39Clie5QAWKzHW-FqYNb032k&downloadName=image.png)
+![image](https://github.com/user-attachments/assets/5ca4e057-c15b-4f91-95a9-b0dd98426388)
 
 ### 의도 분류 모델 1 - (일반, (질문 & 요청) 분류)
 
@@ -104,8 +104,8 @@
         
     - HuggingFace에 공유되어 있는 BERT 기반의 한국어 모델 12개를 이용하여 전이학습 수행
     → Base Parameter : batch_size = 12, learning_rate = 2e-5
-        
-        ![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/3a90bf69-9e66-4d95-bd2d-7a8df183c614/image.png?table=block&id=1495a0fb-7695-805d-8330-fa91e171475e&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=Cr9TiXFLtm_uJjgGKuR6WwyxkZr7SjdPLamsI76dn-A&downloadName=image.png)
+  
+        ![image](https://github.com/user-attachments/assets/aafccdfd-8adc-4091-9b58-a0fc4d69a135)
     
     - F-1 score 상위 5개의 후보 모델 선정
     → KcELECTRA-Base, KoELECTRA-Base, KLUE/BERT-base, KLUE/roBERTa-base, KoALBERT-Base
@@ -194,8 +194,8 @@
         
     - HuggingFace에 공유되어 있는 BERT 기반의 한국어 모델 12개를 이용하여 전이학습 수행
     → Base Parameter : batch_size = 12, learning_rate = 2e-5
-        
-        ![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/e7e9d6b3-3b7f-47ce-8d7e-a3d26229a571/image.png?table=block&id=1495a0fb-7695-8021-916e-e370ce38fbfe&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=B4jgcGNW7KnYAXCrgoHMRMfnE0U3NHY4SpoX6vG1W1A&downloadName=image.png)
+  
+        ![image](https://github.com/user-attachments/assets/7afd8218-5ca2-4db2-bc86-c08e5b563cd7)
         
     - F-1 score 상위 5개의 후보 모델 선정
     → KCBERT-Base, KorBERT-Base, KcELECTRA-Base, KLUE/roBERTa-base, 
