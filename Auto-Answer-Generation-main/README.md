@@ -9,8 +9,8 @@
 - LangChain 이란? → [LangChain](https://www.langchain.com/langchain)
     - LLM(Large Language Model)에서 구동되는 App → RAG를 개발하기 위한 프레임워크
     - 이를 사용하여 챗봇, 생성적 질문-답변(GQA), 요약 등의 Application 을 생성할 수 있음
-    
-    ![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/ed8cf22b-c26f-48b8-9b2b-40f80ff5dabf/image.png?table=block&id=1495a0fb-7695-8006-883c-f2eabe2c0fe2&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=iUU0XWIt7uhl1g_Q9yPkb6R2Bw4on85JJ4luHs5-lBQ&downloadName=image.png)
+
+    ![image](https://github.com/user-attachments/assets/5c3f46f3-731a-458f-8e55-4a5541bc8430)
 
 # 2. LangChain 구축
 
@@ -48,7 +48,7 @@
     - prompt template
         - LLM 의 역할, 입력 데이터, 수행할 Task, 답변 형식을 기반으로 prompt template 작성
 
-![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/2023c92c-12cc-4f81-ae80-90c233495a2d/image.png?table=block&id=1495a0fb-7695-80c1-afe0-d4714639b63d&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=PMxv6VoqfYjyGx_lrvruYfZe1YMM5DSi3Y8n0Lbrpww&downloadName=image.png)
+![image](https://github.com/user-attachments/assets/f3b481c7-f5f1-49e0-8e14-43c5fac1a6cc)
 
 # **3. RAG 파이프라인 성능 평가 With RAGAS**
 
@@ -74,7 +74,7 @@
     - Answer Relevancy : 생성된 답변이 질문이나 참조 문서의 정보를 근거로 작성되었는지 판단
     - 최종 RAGAS Score : 극단적인 값에 패널티를 부여하기 위해, 각 metric score 의 조화 평균 사용
 ## 파라미터 선택 및 (LangChain, LLM 모델) 비교
-![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/11671089-0e72-417d-9fee-cfee1212bfde/image.png?table=block&id=1495a0fb-7695-804a-8d0e-dce8e7d56c79&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=lIffgpXkZGeVJ7NFWJD4qrAr0T3waj0wPs04Xval-HY&downloadName=image.png)
+![image](https://github.com/user-attachments/assets/ebfa35fd-d41e-4096-8409-2a87014b917c)
 
 # 5. LangChain Application 배포
-![image.png](https://file.notion.so/f/f/cd5bda4f-2d99-4029-9745-e7bad4f44b13/49faa57f-0ccc-4dd7-9edf-de92e3896528/image.png?table=block&id=1495a0fb-7695-80bd-ba61-ecde2c975ddc&spaceId=cd5bda4f-2d99-4029-9745-e7bad4f44b13&expirationTimestamp=1732788000000&signature=NujtA_65YNZIEgGgW-wLNnJ8G9Ezee0QlEeg9IxL_Qo&downloadName=image.png)
+![image](https://github.com/user-attachments/assets/3012ac75-ad7a-43af-9678-8b6355c742d3)
